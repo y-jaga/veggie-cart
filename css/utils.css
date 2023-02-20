@@ -1,0 +1,14 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 5vh;
+    width: 5vw;
+    border-radius: 7px;
+    background-color: rgba(12, 2, 49, 0.844);
+    color: white;
+    cursor: pointer;
+}

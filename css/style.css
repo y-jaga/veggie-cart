@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start of header style */
+header {
+    height: 8vh;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    width: 8vw;
+    padding: 0px 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+nav ul {
+    width: 700px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+    font-size: 21px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border: 2px solid black;
+    width: 41vw;
+    height: 5vh;
+    border-radius: 5px;
+    margin: 12px 3px;
+    padding: 0px 10px;
+}
+
+.search button {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+/* end of header style */
+
+/* start of main ka style */
+.container {
+    min-height: calc(100vh - 8vh - 12vh);
+}
+
+.slider {
+    margin: 12px auto;
+    width: 80vw;
+}
+
+.Cards {
+    display: flex;
+}
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+    background: #f3f3f3;
+    padding-left: 30px;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 28px;
+}
+
+.card h2,
+.lines {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin: 7px 0px;
+}
+
+.lines {
+    width: 11vw;
+    padding: 2px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* end of main style */
+
+/* start of footer style */
+footer {
+    height: 12vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+/* end of footer style */
